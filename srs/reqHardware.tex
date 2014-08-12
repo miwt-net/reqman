@@ -1,0 +1,38 @@
+\req{400}{0}{Electronic Hardware}  % {req#}{belongs}{Name}
+{\hdd}{required}  % {class}{priority}
+{
+	The electronic system shall be stand alone battery powered unit.
+}
+
+% Design Specifications ********************************************************
+\subsection{Design Specifications}
+
+\req{401}{400}{Power Usage}  % {req#}{belongs}{Name}
+{\hrs}{required}  % {class}{priority}
+{
+	System shall be designed using lowest power components possible, withing constraints of the budged and other requirements.
+}
+
+\req{402}{400}{Sensor}  % {req#}{belongs}{Name}
+{\hdd}{required}  % {class}{priority}
+{
+	Sensor System shall be ratio-metric.  2 Point calibration at assembly is acceptable.
+}
+
+\req{403}{402}{Sensor Voltage Range}  % {req#}{belongs}{Name}
+{\hdd}{required}  % {class}{priority}
+{
+	Sensor voltage operational range must at least be between 3.2 volt to 3.5 volt.  Wider voltage range is acceptable.
+}
+
+\req{404}{402}{Sensor Source}  % {req#}{belongs}{Name}
+{\hdd}{required}  % {class}{priority}
+{
+	System must be comparable with 3.3 Volt Honeywell PX2 sensor family, such as PX2GN1XX200PSACX.
+}
+
+\req{405}{400}{Cell Networks}  % {req#}{belongs}{Name}
+{\hdd}{required}  % {class}{priority}
+{
+	System hardware shall be configurable, or built as configuration specific to communicate on GSM and CDMA networks.
+}
